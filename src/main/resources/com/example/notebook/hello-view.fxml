@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_LEFT" prefHeight="267.0" prefWidth="479.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notebook.HelloController">
+    <TextField fx:id="inputField" prefHeight="55.0" prefWidth="478.0" promptText="Введите строку и нажмите Enter">
+      <font>
+         <Font size="20.0" />
+      </font></TextField>
+    <TextArea fx:id="notebookArea" editable="false" prefHeight="200" prefWidth="444.0" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font></TextArea>
+</VBox>
